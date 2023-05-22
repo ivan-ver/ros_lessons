@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             # file_name=pkg_name.file_name:main
             "first_node=controller.first_node:main",
-            "draw_circle=controller.draw_circle:main"  
+            "draw_circle=controller.draw_circle:main",
+            "pose_subscriber=controller.pose_subscriber:main", 
         ],
     },
 )
